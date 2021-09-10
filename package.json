@@ -1,0 +1,26 @@
+{
+  "name": "asyncparse",
+  "version": "0.9.0",
+  "description": "Asynchronous parser with handlebar like syntax",
+  "main": "asyncparse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakan-sal/asyncparse.git"
+  },
+  "keywords": [
+    "async",
+    "parser"
+  ],
+  "author": "lars.hakan.salomonsson@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hakan-sal/asyncparse/issues"
+  },
+  "homepage": "https://github.com/hakan-sal/asyncparse#readme",
+  "dependencies": {
+    "winston": "^3.3.3"
+  }
+}
