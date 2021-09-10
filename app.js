@@ -1,6 +1,7 @@
 const AsyncParse = require('./asyncparse');
 const asyncParse = new AsyncParse({logger: { console: {level: 'debug'}}});
 
+
 let templ = '--- {{#getuuid}} ---- abcd{{#with xx}} -{{#getuuid bb}}-\n --{{aa}} - {{bb}} -\n-{{/with}}dfs{{xx.bb}}df\nojojoj{{yy}}\n{{#for cc}}--{{.}}--\n{{/for}}\n{{#if xx}} xx:{{aa}} {{/if}}'
 let obj ={xx: {aa: 'aaaaaaa', bb: 'bbbbbbb'}, yy: 'yyyyyy', zz: 'zzzzzz', cc: ['aa', 'bb', 'cc']};
 
